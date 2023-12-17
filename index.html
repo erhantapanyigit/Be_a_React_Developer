@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Be a React Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar starting -->
+    <nav id="#navbar" class="navbar navbar-expand-lg py-3 fixed-top bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Udemig</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#education">Course Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#question">Overview</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#instruction">Our Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section starting -->
+
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>
+            <span class="text-warning">Level Up as a  </span> React Developer!
+            </h1>
+            <p class="lead my-4">
+              Transforming aspiring developers into skilled React professionals, 
+              our college offers comprehensive training in HTML5, CSS3, JavaScript, 
+              and various programming languages. Our curriculum focuses on hands-on 
+              learning, ensuring students gain practical expertise. Join us to embark 
+              on a journey towards becoming a proficient React developer.
+            </p>
+            <button
+              class="btn btn-primary btn-lg mb-3"
+              data-bs-target="#exampleModal"
+              data-bs-toggle="modal"
+            >
+              Enroll Today
+            </button>
+          </div>
+
+          <img
+            src="img/React1.png"
+            class="fluid w-100 d-sm-block d-none rounded m-5"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscribe -->
+
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div>
+          <h3 class="mb-3">Stay updated and learn more about our courses with our student newsletter.</h3>
+          <div class="div input-group">
+            <input type="text" class="form-control" placeholder="Enter your e-mail address" />
+            <button class="btn btn-lg btn-dark">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Info -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <!-- Cards -->
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-video"></i>
+                </div>
+                <h5 class="card-title">Online Training</h5>
+                <p class="card-text">
+                  Elevate your React skills with immersive virtual courses anytime, anywhere.
+                </p>
+                <a href="#" class="btn btn-primary">Discover more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people-fill"></i>
+                </div>
+                <h5 class="card-title">Individual Tutorial</h5>
+                <p class="card-text">
+                  Tailored guidance for personalized learning and mastery in React development.
+                </p>
+                <a href="#" class="btn btn-dark">Discover more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h5 class="card-title">Campus Learning</h5>
+                <p class="card-text">
+                  Dive into React coding with hands-on experience at our dedicated campuses.
+                </p>
+                <a href="#" class="btn btn-primary">Discover more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course Content 1 -->
+
+    <section class="p-5" id="education">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="img/html-css1.webp" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn from the best</h2>
+            <p>
+              We can teach you programming in just 6 months 
+              thanks to the professionals we have here to help you. 
+              Having great teachers with industry experience means 
+              you can experience live coding demos and receive regular 
+              feedback on your work.
+              A good teacher is prepared and passionate about what he or she teaches, 
+              but they are also capable of understanding the needs of each student and 
+              creating constructive dynamics in the classroom. We offer the best teachers, 
+              for the best student experience.
+            </p>
+            <p>
+              The course starts from scratch and gives you all the skills 
+              you’ll need for a tech career, even if you've never coded before.
+              Over 250 hours, we cover everything you need to become a front-end 
+              developer, including: programming skills (like understanding requirements, 
+              problem solving and debugging), HTML, CSS, JavaScript, React, testing, Git, and Agile.
+            </p>
+            <a href="" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-compact-right"></i>Discover more
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course Content 2 -->
+
+    <section class="p-5 bg-dark text-light" id="question">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>React and Single Page Applications</h2>
+            <p>
+              React is a leading front-end library used by companies 
+              like Facebook, Netflix, and more. 
+              Because React is a library (and not a framework), it provides 
+              enormous flexibility when building rich user interfaces and has 
+              developed a passionate community with excellent web developer and 
+              software development support. 
+            </p>
+            <p>
+              Using React, learn to build single page 
+              applications — progressive web applications that feel like a native app. 
+              This modern software development approach is used by companies like Twitter 
+              and Facebook, and you'll learn how to deploy it in your own web development 
+              projects.
+            </p>
+            <a href="" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-compact-right"></i>Discover more
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="img/download (1).png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Area -->
+
+    <section class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+      </div>
+    </section>
+
+    <!-- Questions with accordions -->
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item bg-dark text-light">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button bg-secondary text-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+          WHO CAN APPLY TO THE COURSE?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>Anyone is welcome to apply to our courses, there is no upper limit.</strong> 
+            We've taught students up to 65 so far! Please be aware 
+            that remote and hybrid options are delivered live by our coaches. 
+            You do not need any specific qualifications to join our courses. 
+            You do not need any technical background to apply to our course but 
+            we will as you t complete the below coding resources. If you're thinking 
+            of applying, we encourage you to start these now so you can quickly and 
+            easily join the course you're aiming for
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-dark text-light">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed bg-secondary text-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+          HOW MUCH PROGRAMMING DO I NEED TO KNOW TO JOIN?
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>The course starts from scratch.</strong> 
+            so you don't need any programming skills. You just need to pass through our admissions process.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-dark text-light">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button bg-secondary text-light collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+          WHAT TYPE OF COMPUTER DO I NEED
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>Most computers are perfect for this programme.</strong> 
+            A good measure is, if you have no problem doing the 5 Day Coding Challenge – 
+            then you should be fine. However, we recommend that the computer has 
+            at least 4Gb RAM – 8Gb RAM is even better.
+            All you need is a computer (Windows, Mac, Linux, desktop, 
+            laptop are all fine), a webcam and a good internet connection, 
+            capable of handling video calls with many participants without 
+            problems for a few hours every day. We also recommend that you 
+            have a pair of headphones with a microphone on hand, and a comfortable workstation.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-dark text-light">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button bg-secondary text-light collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseFour"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+          IS THIS COURSE A VALID ALTERNATIVE TO A DEGREE?
+          </button>
+        </h2>
+        <div
+          id="collapseFour"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>Absolutely, if your goal is to start a career as a software developer. </strong> 
+            Coding is a very hands-on and practical discipline, so this isn’t necessarily 
+            suited to a highly theoretical degree. Companies looking for developers know 
+            that university studies don’t represent a guarantee in knowing how to code and 
+            they are open to speaking to candidates who are able to code regardless of how 
+            they learnt.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-dark text-light">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button bg-secondary text-light collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseFive"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+          AFTER THE COURSE, AM I SUPPORTED IN MY JOB SEARCH?
+          </button>
+        </h2>
+        <div
+          id="collapseFive"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>Yes! We’ll help you to create an effective resume. </strong> 
+            we’ll give you tips to optimise your online profiles like LinkedIn and GitHub. 
+            You’ll also have a dedicated Careers Advisor for six months, who will help 
+            you navigate applications, interviews, and job offers.
+            we’ll work hard alongside you to support your job search, get 
+            you ready for interviews, and share your profile with companies! 
+            To date, all of our students find work within six months of completing 
+            the course, often after receiving more than one offer.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Instructors -->
+    <section class="bg-primary p-5" id="instruction">
+      <div class="container">
+        <h2 class="text-center text-white">Meet our software experts</h2>
+        <p class="lead text-center text-white mb-5">
+         Get started with our software experts, who specialize in 
+          HTML5, CSS3, React, JavaScript and other programming languages
+        </p>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <img
+                src="img/elon3.jpg"
+                class="rounded-circle img-fluid mb-3 p-5"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Elon Musk</h5>
+                <p class="card-text">
+                  HTML, CSS, JS expert, experienced trainer
+
+                </p>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <img
+                src="img/mark33.jpg"
+                class="rounded-circle img-fluid mb-3 p-5"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Mark Zuckerberg</h5>
+                <p class="card-text">
+                  Expert in , HTML5, CSS3, React and design
+                </p>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <img
+                src="img/bill2.jpg"
+                class="rounded-circle img-fluid mb-3 p-5"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text">
+                  HTML, CSS, JS expert, experienced trainer
+                </p>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <img
+                src="img/tim2.jpeg"
+                class="rounded-circle img-fluid mb-3 p-5"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Tim Cook</h5>
+                <p class="card-text">
+                  Expert in , HTML5, CSS3, React and design
+                </p>
+                
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Location:</span> Palo Alto, CA, USA
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Call us on</span> +1 444 4444
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Career Service</span> +1 444 5555
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Udemig USA</span> udemigusa@udemig.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Any question? Email us</span>
+                info@udemig.com
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md">
+            <div class="align-items-center">
+              <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50691.19271550363!2d-122.154577028352!3d37.432390568170085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb07b9dba1c39%3A0xe1ff55235f576cf!2sPalo%20Alto%2C%20Kaliforniya%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2suk!4v1700432558433!5m2!1str!2suk" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Footer Area -->
+<section class="p-5 bg-dark text-white text-center position-relative">
+  <div class="container">
+    <div class="lead">
+      developed by Erhan &copy; 2023 All rights reserved
+    </div>
+    <a href="#" class="position-absolute bottom-0 end-0 p-5">
+      <i class="bi bi-arrow-up-circle"></i>
+    </a>
+  </div>
+</section>
+
+
+
+    <!-- Enroll Now - Pop-up Contact Form -->
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Drop us a line
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Udemig is here to provide you with more information</p>
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"
+                  >Full Name</label
+                >
+                <input type="text" class="form-control" id="recipient-name" />
+              </div>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"
+                  >Phone Number</label
+                >
+                <input type="text" class="form-control" id="recipient-name" />
+              </div>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"
+                  >Email address</label
+                >
+                <input type="email" class="form-control" id="recipient-name" />
+              </div>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"
+                  >Message</label
+                >
+                <input type="number" class="form-control" id="recipient-name" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cancel
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+  </body>
+</html>
