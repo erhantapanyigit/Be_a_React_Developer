@@ -1,6 +1,6 @@
 ﻿# The path to becoming a React Developer
 
-The website which is shown below has a basic user interface that was designed using HTML, CSS and Bootstrap.
+I developed this website which has a basic user interface that was designed using HTML, CSS and Bootstrap.
 
 
 The project screenshot is provided below:
